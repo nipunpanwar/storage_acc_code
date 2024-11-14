@@ -40,7 +40,3 @@ resource "azurerm_resource_group" "rgblock007" {
   location = "West Europe"
 }
 
-resource "azurerm_resource_group" "rgblock008" {
-  name     = "NipRg8"
-  location = "West Europe"
-}
