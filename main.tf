@@ -32,3 +32,8 @@ resource "azurerm_resource_group" "rgblock005" {
 
 
 
+
+resource "azurerm_resource_group" "rgblock009" {
+  name     = "NipRg9b1"
+  location = "West Europe"
+}
