@@ -13,4 +13,8 @@ resource "azurerm_storage_account" "example" {
 
 }
 
-q
+
+resource "azurerm_resource_group" "rgblock003" {
+  name     = "NipRg3"
+  location = "West Europe"
+}
