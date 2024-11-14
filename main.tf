@@ -17,5 +17,3 @@ resource "azurerm_resource_group" "rgblock007" {
   name     = "NipRg007"
   location = "West Europe"
 }
-
-hi Nipun
